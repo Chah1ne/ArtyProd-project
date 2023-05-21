@@ -1,0 +1,13 @@
+site_name: Jazzmin
+nav:
+    - Home: index.md
+    - Installation: installation.md
+    - Configuration: configuration.md
+    - UI Tweaks: ui_customisation.md
+    - Bugs/Features: bugs_and_features.md
+    - Development: development.md
+theme: readthedocs
+
+markdown_extensions:
+  - toc:
+      permalink: true

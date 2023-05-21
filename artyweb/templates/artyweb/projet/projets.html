@@ -1,0 +1,31 @@
+<!-- projects.html -->
+{% extends 'artyweb/base.html' %}
+
+{% block title %}Projects{% endblock %}
+
+{% block content %}
+<div id="projet" class="portfolio-area section-padding">
+    <div class="container-fluid">
+        <div class="section-header text-center">
+            <h2>Our Projects </h2>
+        </div>
+        <div class="row">
+            {% for projet in projets %}
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <img src="{{ projet.image.url }}" alt=""> <br><br>
+                        <h5 class="card-title">{{ projet.libelle }}</h5>
+                        <p class="card-text">{{ projet.description }}</p>
+                        <p class="card-text">{{ projet.date_debut }}</p>
+                        <p class="card-text">{{ projet.date_fin }}</p>
+                        <p class="card-text">{{ projet.service }}</p>
+                        <p class="card-text">{{ projet.equipe }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

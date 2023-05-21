@@ -1,0 +1,137 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+        {% block title %} ARTYPROD {% endblock %}
+    </title>
+    {% block styles %}
+
+
+    <!--Theme Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.css' %}">
+
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+    <!--icon css-->
+    <link rel="stylesheet" href="{% static 'css/line-icons.min.css' %}">
+
+    <!--Template css-->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!--Template css-->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    {% endblock %}
+
+</head>
+
+<body>
+
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="/">Arty<span>Prod</span> </a>
+
+            </div>
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    {% if not user.is_superuser and not user.is_staff %}
+
+                    <li><a  href="{% url 'welcome' %}">About</a></li>
+                    {% endif %}
+                    <li><a href="{% url 'services' %}">Services</a></li>
+                    <li><a href="{% url 'projet' %}">Projets</a></li>             
+                    {% if not user.is_superuser and not user.is_staff %}
+                    <li><a  href="{% url 'contact' %}">Contact</a></li>             
+                    {% endif %}
+                    <li ><a href="{% url 'equipe' %}">Nos Equipes</a></li>
+                    {% if user.is_authenticated %}
+                    <li><a  href="#">Formation</a></li>
+                    {% endif %}
+                    {% if user.is_authenticated and user.is_superuser %}
+                    <li class="nav-link">
+                        <a href="{% url 'admin:index' %}">Administration</a>
+                        <li><a href="{% url 'logout' %}">LOGOUT</a></li>
+
+                    </li>
+                {% else %}
+                    {% if user.is_authenticated %}
+                        <li><a href="#">{{ user }}</a></li>
+                        <li><a href="{% url 'logout' %}">LOGOUT</a></li>
+                    {% endif %}
+                {% endif %}
+                
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    {% block content %}{% endblock %}
+
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <p>&copy;Copyright 2023 chahine tsouri & najeh ben rebah</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Latest version JQuery-->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+
+    <!--Bootstrap js-->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <!--easing js-->
+    <script src="{% static 'js/jquery.easing.min.js' %}"></script>
+
+    <!--mixitup js-->
+    <script src="{% static 'js/jquery.magnific-popup.js' %}"></script>
+
+    <!--Owl Carousel js-->
+    <script src="{% static 'js/owl.carousel.js' %}"></script>
+
+    <!--Validator js-->
+    <script src="{% static 'js/validator.js' %}"></script>
+
+    <!--Contact js-->
+    <script src="{% static 'js/contact.js' %}"></script>
+
+
+    <!--Bootstrap js-->
+    <script src="{% static 'js/wow.min.js' %}"></script>
+
+    <!--Theme js-->
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
