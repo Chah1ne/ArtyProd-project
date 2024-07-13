@@ -26,9 +26,7 @@ Installation
 Clone the repository:
 
 bash
-[git clone https://github.com/yourusername/artyprod.git
-](https://github.com/Chah1ne/ArtyProd-project.git)Navigate to the project directory:
-
+https://github.com/Chah1ne/ArtyProd-project.git
 bash
 cd artyprod
 Create a virtual environment:
