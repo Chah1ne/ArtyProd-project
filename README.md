@@ -27,35 +27,44 @@ Other dependencies (list them here)
 Installation
 Clone the repository:
 
-bash
+bash - 
 https://github.com/Chah1ne/ArtyProd-project.git
-bash
+bash - 
 cd artyprod
+
+
 Create a virtual environment:
 
-bash
+bash -
 python3 -m venv env
+
+
+
 Activate the virtual environment:
 
 On Windows:
-bash
+bash-
 .\env\Scripts\activate
 On macOS and Linux:
-bash
+bash-
 source env/bin/activate
+
+
 Install dependencies:
 
-bash
+bash-
 pip install -r requirements.txt
+
 Set up environment variables (create a .env file based on the .env.example provided).
 
 Apply migrations:
 
-bash
+bash-
 python manage.py migrate
+
 Start the development server:
 
-bash
+bash-
 python manage.py runserver
 
 
