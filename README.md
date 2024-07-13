@@ -26,8 +26,8 @@ Installation
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/artyprod.git
-Navigate to the project directory:
+[git clone https://github.com/yourusername/artyprod.git
+](https://github.com/Chah1ne/ArtyProd-project.git)Navigate to the project directory:
 
 bash
 cd artyprod
