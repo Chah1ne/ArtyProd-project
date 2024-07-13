@@ -22,6 +22,8 @@ Python 3.x
 Django
 PostgreSQL (or any other database you're using)
 Other dependencies (list them here)
+
+
 Installation
 Clone the repository:
 
