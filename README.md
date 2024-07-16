@@ -1,4 +1,4 @@
-ArtyProd
+
 ArtyProd is a website dedicated to graphic design, audiovisual production, and 3D design. It offers a range of services and projects for clients to consult, along with sections showcasing the team and providing site administration capabilities.
 
 Features
