@@ -68,20 +68,23 @@ bash >>
 python manage.py runserver
 
 
+![1](https://github.com/user-attachments/assets/65c612bd-fb4b-40ed-bd64-b122ce057a63)
+![2](https://github.com/user-attachments/assets/c5c5d8dc-a205-43bb-8006-fdd2ca60b7b6)
+![3](https://github.com/user-attachments/assets/db2dde7c-fa74-41ef-a046-e0845a79eb4b)
+![4](https://github.com/user-attachments/assets/abe815a3-de4b-4a3a-8ed3-cbb8f205118c)
+![5](https://github.com/user-attachments/assets/05aa098d-e7f7-412e-b51f-084fc4f31b1e)
 
-![1](https://github.com/user-attachments/assets/4df99f35-a3ac-41ad-b5b6-50316cf4d9d7)
-![2](https://github.com/user-attachments/assets/02d67105-3c75-41a3-9e1a-83be8a7bf5a8)
-![3](https://github.com/user-attachments/assets/494e0647-8a89-4dba-9956-6373018c88ac)
-![4](https://github.com/user-attachments/assets/ef305d85-740d-4bb1-82f0-d030f46b25ef)
-![5](https://github.com/user-attachments/assets/af4d5939-02cd-40ce-bfac-dce29a367b78)
 
 
 partie admin
-![1](https://github.com/user-attachments/assets/e8ad2255-d2e4-47b6-8b3b-c69e5ce79ec5)
-![2](https://github.com/user-attachments/assets/cbc7e328-f686-48b1-871e-abc74b3eacbb)
-![3](https://github.com/user-attachments/assets/034f74e8-cff0-4dde-a19f-c8db5b7ae47b)
-![9](https://github.com/user-attachments/assets/6343ae2d-e673-4f64-8738-9373cbe97b18)
-![7](https://github.com/user-attachments/assets/92addca2-4eff-41b2-b899-51d8ce1bf15e)
+![1](https://github.com/user-attachments/assets/12037813-188a-4cdd-9dc3-c2a28dcb625a)
+![2](https://github.com/user-attachments/assets/a435ca90-61f9-4348-afdc-c160c33c769a)
+![3](https://github.com/user-attachments/assets/5cc8de4a-913c-4068-a11c-3941614fd5a8)
+![5](https://github.com/user-attachments/assets/b2d7bb8e-8c9b-499d-953e-deabd380c28f)
+![9](https://github.com/user-attachments/assets/492e7f1e-5701-4d90-b94b-aee721fbe0bd)
+![10](https://github.com/user-attachments/assets/0efda98f-1a3a-4084-a8c4-cef54c1fd90e)
+![11](https://github.com/user-attachments/assets/0fdb7756-531d-4d4e-9549-f2b9807d1b44)
+
 
 
 
